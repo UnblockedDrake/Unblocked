@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vibe Vault</title>
+  <style>
+    :root {
+      --accent: #00d4ff;
+      --dark-bg: #0a0e12;
+      --mid-bg: #12181f;
+      --light-text: #e7eef3;
+    }
+
+   * {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--dark-bg);
+  color: var(--light-text);
+  font-family: Pica, "IM Fell DW Pica", serif;
+}
+
+    /* --- HEADER --- */
+    header {
+      background: radial-gradient(circle at top left, #00223d, #000);
+      padding: 8rem 2rem 6rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: var(--accent);
+      text-shadow: 0 0 20px #00d4ff90;
+      letter-spacing: 1px;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.8;
+    }
+
+    /* --- NAVBAR --- */
+    nav {
+      background: #00000090;
+      backdrop-filter: blur(6px);
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: var(--light-text);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color .3s;
+    }
+    nav a:hover { color: var(--accent); }
+
+    /* --- SECTIONS --- */
+    section {
+      max-width: 1100px;
+      margin: 3rem auto;
+      padding: 2.5rem;
+      background: var(--mid-bg);
+      border-radius: 16px;
+      box-shadow: 0 0 20px #00000055;
+    }
+    h2 {
+      color: var(--accent);
+      border-left: 4px solid var(--accent);
+      padding-left: 0.75rem;
+      margin-top: 0;
+    }
+    ul { list-style: none; padding: 0; }
+    li { margin: 0.6rem 0; }
+
+    /* --- TABLE --- */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1.5rem;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 0.75rem;
+      text-align: left;
+    }
+    th {
+      background: #0f1822;
+      color: var(--accent);
+    }
+
+    /* --- FOOTER --- */
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #000;
+      color: #888;
+      font-size: 0.9rem;
+    }
+
+    /* --- EFFECTS --- */
+    section, header h1, header p {
+      transition: transform .6s ease, opacity .6s ease;
+    }
+    section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 30px #00d4ff30;
+    }
+
+    @media(max-width:700px){
+      header h1{font-size:2.2rem;}
+      section{margin:1rem; padding:1.5rem;}
+      table{font-size:0.9rem;}
+    }
+  </style>
+  
+</head>
+<body>
+
+  <header>
+    <h1>Vibe Vault</h1>
+    <p>This a Place for you and your games to be accessed from Anywhere</p>
+  </header>
+
+  <nav>
+    <a href="#intro">Intro</a>
+    <a href="#specs">A few Links</a>
+    <a href="#manufacturers">The creator</a>
+    <a href="#prices">Feuture Ideas</a>
+  </nav>
+
+  <!-- INTRO -->
+  <section id="intro">
+    <h2>Introduction</h2>
+    <p>
+      Welcome to your amazing game site — the ultimate destination for gamers of all kinds! Whether you're a casual player looking for a quick challenge or a hardcore enthusiast seeking your next big adventure, this site has something for everyone. With a sleek, user-friendly interface and lightning-fast load times, navigating through your favorite games has never been easier. From action-packed shooters and mind-bending puzzles to immersive RPGs and classic arcade throwbacks, every click opens a new world of excitement and fun.
+    </p>
+    <p>
+      But it's not just about playing — it's about community. Your game site brings players together through leaderboards, forums, and live events where competition meets camaraderie. Stay up to date with the latest game releases, exclusive content, and insider tips that keep you ahead of the curve. Whether you're here to conquer, connect, or just kick back and play, your site is the perfect hub for leveling up your gaming experience. Ready to press start? Let the games begin.
+    </p>
+  </section>
+
+  <!-- TECH SPECS -->
+  <section id="specs">
+    <h2>Technical Specifications & Military Number</h2>
+    <ul>
+      <li><strong>Standard Designation:</strong> 6T / MIL-PRF-32143</li>
+      <li><strong>Voltage:</strong> 24 V nominal (12 V variants exist)</li>
+      <li><strong>Capacity:</strong> 100–180 Ah depending on chemistry</li>
+      <li><strong>Chemistry:</strong> Li-ion (LFP / NCA) or Lead-Acid (AGM, Gel)</li>
+      <li><strong>Dimensions:</strong> 269 × 256 × 230 mm</li>
+      <li><strong>Operating Range:</strong> −46 °C to +71 °C</li>
+      <li><strong>Pulse Discharge:</strong> up to 1100 A (30 s)</li>
+      <li><strong>Cycle Life:</strong> 2000–4000 cycles</li>
+    </ul>
+  </section>
+
+  <!-- MANUFACTURERS -->
+  <section id="Main Links">
+    <h2>Main Links</h2>
+    <ul>
+      <li><a href="https://history.schoolresources.v6.rocks/index.html/" target="_blank" style="color:var(--accent);">Pizza Edition</a></li>
+      <li><a href="https://fb.crispyclean.org//" target="_blank" style="color:var(--accent);">Football Bros</a></li>
+      <li><a href="https://sites.google.com/view/classroom6x/home/" target="_blank" style="color:var(--accent);">6x games</a></li>
+      <li><a href="https://thomasspradling.github.io/burger_clickers/" target="_blank" style="color:var(--accent);">Burger Clicker</a></li>
+      <li><a href="https://sites.google.com/view/drive-u-7-home-10/home//" target="_blank" style="color:var(--accent);">G+ Gaming</a></li>
+    </ul>
+  </section>
+
+  <!-- PRICE COMPARISON -->
+  <section id="prices">
+    <h2>Feauture Realeses</h2>
+    <table>
+      <tr>
+        <th>Person</th>
+        <th>Idea</th>
+        <th>Possiblity</th>
+        <th>Name</th>
+        <th>Current date</th>
+        <th>Link</th>
+      </tr>
+      <tr>
+        <td>Breeze Baldini</td>
+        <td>Movie site</td>
+        <td>Very High</td>
+        <td>Movies</td>
+        <td>11/13/2025</td>
+        <td><a href="https://sites.google.com/view/scholarvision/movies/" target="_blank" style="color:var(--accent);">Movie</a></td>
+      </tr>
+      <tr>
+        <td>Jonah Greenhaugh</td>
+        <td>Movie/game site</td>
+        <td>High</td>
+        <td>Movie/game</td>
+        <td>11/14/2025</td>
+      <td><a href="https://sites.google.com/view/scholarvision/movies/" target="_blank" style="color:var(--accent);">Movie/Games</a></td>
+      </tr>
+      <tr>
+        <td>Wyatt Arey</td>
+        <td>Unblocked Game</td>
+        <td>Medium</td>
+        <td>Unblocked Site</td>
+        <td>11/13/2025</td>
+   <td><a href="https://sites.google.com/view/scholarvision/movies/" target="_blank" style="color:var(--accent);">Unblocked Games</a></td>
+      </tr>
+      <tr>
+        <td>Lola Grace Elizbeth Warner</td>
+        <td>School 6x</td>
+        <td>Low</td>
+        <td>School Unblocked 6x</td>
+        <td>11/13/2025</td>
+<td><a href="https://sites.google.com/view/unblockedgame/street-fighter-alpha-3/" target="_blank" style="color:var(--accent);">School 6x Unblocked</a></td>
+      </tr>
+    </table>
+  </section>
+
+  <footer>
+    © Please Thank Drake
+  </footer>
+</body>
+</html>
+
+
+<style>
+
+</style>
+
+<script>
+
+</script></html>
