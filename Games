@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vibe Vault</title>
+  <link rel="icon" href="https://codehs.com/uploads/f85a3ba0eb943d6246436c6b4dd5c275">
   <style>
     :root {
       --accent: #00d4ff;
@@ -12,17 +13,13 @@
       --light-text: #e7eef3;
     }
 
-   * {
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-  background: var(--dark-bg);
-  color: var(--light-text);
-  font-family: Pica, "IM Fell DW Pica", serif;
-}
+    * { box-sizing: border-box; scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--dark-bg);
+      color: var(--light-text);
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
 
     /* --- HEADER --- */
     header {
@@ -121,110 +118,138 @@ body {
       section{margin:1rem; padding:1.5rem;}
       table{font-size:0.9rem;}
     }
-  </style>
-  
+    </style>
 </head>
 <body>
 
   <header>
     <h1>Vibe Vault</h1>
-    <p>This a Place for you and your games to be accessed from Anywhere</p>
+    <p> Please enjoy my amazing website and enjoy!!!</p>
   </header>
 
   <nav>
     <a href="#intro">Intro</a>
-    <a href="#specs">A few Links</a>
-    <a href="#manufacturers">The creator</a>
-    <a href="#prices">Feuture Ideas</a>
+    <a href="#specs">Game Of The Month</a>
+    <a href="#manufacturers">Game Links</a>
+    <a href="#prices">Funny Photos</a>
+    <a href="#Form">Form</a>
+    <a href="#Wordle">Wordle</a>
   </nav>
 
   <!-- INTRO -->
   <section id="intro">
     <h2>Introduction</h2>
     <p>
-      Welcome to your amazing game site — the ultimate destination for gamers of all kinds! Whether you're a casual player looking for a quick challenge or a hardcore enthusiast seeking your next big adventure, this site has something for everyone. With a sleek, user-friendly interface and lightning-fast load times, navigating through your favorite games has never been easier. From action-packed shooters and mind-bending puzzles to immersive RPGs and classic arcade throwbacks, every click opens a new world of excitement and fun.
-    </p>
+      Welcome to my digital arcade — a place built for fun, creativity, and pure entertainment. Here you'll find a collection of browser-based games designed to be simple, addictive, and instantly playable. Whether you're testing your reflexes in Snake, spinning the reels on a massive slot machine, or exploring other playful experiments, every game is crafted to deliver quick joy without downloads or complicated setup.
     <p>
-      But it's not just about playing — it's about community. Your game site brings players together through leaderboards, forums, and live events where competition meets camaraderie. Stay up to date with the latest game releases, exclusive content, and insider tips that keep you ahead of the curve. Whether you're here to conquer, connect, or just kick back and play, your site is the perfect hub for leveling up your gaming experience. Ready to press start? Let the games begin.
+      This site isn't just about games; it's about showcasing imagination and coding skill in action. Each project reflects a passion for playful design and interactive experiences, turning simple ideas into something engaging and memorable. Dive in, explore, and enjoy — my website is here to prove that the web can still be a place for creativity, chaos, and fun.
     </p>
   </section>
 
   <!-- TECH SPECS -->
   <section id="specs">
-    <h2>Technical Specifications & Military Number</h2>
+    <h2>Game Of The Month</h2>
     <ul>
-      <li><strong>Standard Designation:</strong> 6T / MIL-PRF-32143</li>
-      <li><strong>Voltage:</strong> 24 V nominal (12 V variants exist)</li>
-      <li><strong>Capacity:</strong> 100–180 Ah depending on chemistry</li>
-      <li><strong>Chemistry:</strong> Li-ion (LFP / NCA) or Lead-Acid (AGM, Gel)</li>
-      <li><strong>Dimensions:</strong> 269 × 256 × 230 mm</li>
-      <li><strong>Operating Range:</strong> −46 °C to +71 °C</li>
-      <li><strong>Pulse Discharge:</strong> up to 1100 A (30 s)</li>
-      <li><strong>Cycle Life:</strong> 2000–4000 cycles</li>
+        <h3>The game of the month is <strong>BURGER CLICKER</strong><h3/>
+        <img 
+  src="https://codehs.com/uploads/a645185c71a3274a64157b01269ac8ec" 
+  alt="Screenshot from my game site" 
+  style="max-width:100%; height:auto;"
+>
+
     </ul>
   </section>
 
   <!-- MANUFACTURERS -->
-  <section id="Main Links">
-    <h2>Main Links</h2>
+  <section id="manufacturers">
+    <h2>Game Links</h2>
     <ul>
-      <li><a href="https://history.schoolresources.v6.rocks/index.html/" target="_blank" style="color:var(--accent);">Pizza Edition</a></li>
-      <li><a href="https://fb.crispyclean.org//" target="_blank" style="color:var(--accent);">Football Bros</a></li>
-      <li><a href="https://sites.google.com/view/classroom6x/home/" target="_blank" style="color:var(--accent);">6x games</a></li>
+      <li><a href="https://sites.google.com/view/scholarvision/movies/" target="_blank" style="color:var(--accent);">Chill Zone</a></li>
+      <li><a href="https://sites.google.com/view/unblockedmoviesgames/" target="_blank" style="color:var(--accent);">Google Unblocked</a></li>
+      <li><a href="https://sites.google.com/site/unblockedgamesholo/bad-ice-cream/" target="_blank" style="color:var(--accent);">Bad Ice Cream</a></li>
+      <li><a href="https://sites.google.com/view/harmony-school-of-innovation/clicker-games/" target="_blank" style="color:var(--accent);">Click Unblocked</a></li>
       <li><a href="https://thomasspradling.github.io/burger_clickers/" target="_blank" style="color:var(--accent);">Burger Clicker</a></li>
-      <li><a href="https://sites.google.com/view/drive-u-7-home-10/home//" target="_blank" style="color:var(--accent);">G+ Gaming</a></li>
+      <li><a href="https://sites.google.com/site/thegamecompilation/burger-challenge/" target="_blank" style="color:var(--accent);">Games World</a></li>
+      <li><a href="https://sites.google.com/view/pizzaedition/" target="_blank" style="color:var(--accent);">Fake Pizza</a></li>
+      <li><a href="https://sites.google.com/site/playfunblockedgamesforschool/" target="_blank" style="color:var(--accent);">Fun Unblocked</a></li>
+      <li><a href="https://sites.google.com/view/pizzalearns/popular-games/windows-11-in-react/" target="_blank" style="color:var(--accent);">Realish Pizza</a></li>
     </ul>
   </section>
 
   <!-- PRICE COMPARISON -->
   <section id="prices">
-    <h2>Feauture Realeses</h2>
-    <table>
-      <tr>
-        <th>Person</th>
-        <th>Idea</th>
-        <th>Possiblity</th>
-        <th>Name</th>
-        <th>Current date</th>
-        <th>Link</th>
-      </tr>
-      <tr>
-        <td>Breeze Baldini</td>
-        <td>Movie site</td>
-        <td>Very High</td>
-        <td>Movies</td>
-        <td>11/13/2025</td>
-        <td><a href="https://sites.google.com/view/scholarvision/movies/" target="_blank" style="color:var(--accent);">Movie</a></td>
-      </tr>
-      <tr>
-        <td>Jonah Greenhaugh</td>
-        <td>Movie/game site</td>
-        <td>High</td>
-        <td>Movie/game</td>
-        <td>11/14/2025</td>
-      <td><a href="https://sites.google.com/view/scholarvision/movies/" target="_blank" style="color:var(--accent);">Movie/Games</a></td>
-      </tr>
-      <tr>
-        <td>Wyatt Arey</td>
-        <td>Unblocked Game</td>
-        <td>Medium</td>
-        <td>Unblocked Site</td>
-        <td>11/13/2025</td>
-   <td><a href="https://sites.google.com/view/scholarvision/movies/" target="_blank" style="color:var(--accent);">Unblocked Games</a></td>
-      </tr>
-      <tr>
-        <td>Lola Grace Elizbeth Warner</td>
-        <td>School 6x</td>
-        <td>Low</td>
-        <td>School Unblocked 6x</td>
-        <td>11/13/2025</td>
-<td><a href="https://sites.google.com/view/unblockedgame/street-fighter-alpha-3/" target="_blank" style="color:var(--accent);">School 6x Unblocked</a></td>
-      </tr>
-    </table>
+    <h2>Funny Images</h2>
+<img src="data:image/jpeg;base64,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" alt="Thank You Harrison" style="width:70%; height:70;">
   </section>
+  
+  <Section>
+ <section id="Form">
+<h2> Game Addition</h2>
+</div>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSefEUQWGousFDy5O4doCVngu1ibjmP8VNx8zDHQ0k-Cs-fTdw/viewform?embedded=true" width="640" height="833" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </Section>
+  <Section>
+ <section id="Wordle">
+<h2> Question of The Day</h2>
+</div>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Wordle</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; }
+    .grid { display: grid; grid-template-columns: repeat(5, 50px); gap: 5px; justify-content: center; margin: 20px; }
+    .cell { width: 50px; height: 50px; border: 2px solid #ccc; display: flex; align-items: center; justify-content: center; font-size: 24px; text-transform: uppercase; }
+    .correct { background: green; color: white; }
+    .present { background: gold; color: black; }
+    .absent { background: #999; color: white; }
+  </style>
+</head>
+<body>
+  <h1>Mini Wordle</h1>
+  <div id="board"></div>
+  <input type="text" id="guess" maxlength="5" placeholder="Type 5 letters">
+  <button onclick="submitGuess()">Guess</button>
+
+  <script>
+    const word = "APPLE"; // secret word
+    const board = document.getElementById("board");
+    let attempts = 0;
+
+    function submitGuess() {
+      const guess = document.getElementById("guess").value.toUpperCase();
+      if (guess.length !== 5) return alert("Enter 5 letters!");
+      attempts++;
+      const row = document.createElement("div");
+      row.className = "grid";
+      for (let i = 0; i < 5; i++) {
+        const cell = document.createElement("div");
+        cell.className = "cell";
+        cell.textContent = guess[i];
+        if (guess[i] === word[i]) {
+          cell.classList.add("correct");
+        } else if (word.includes(guess[i])) {
+          cell.classList.add("present");
+        } else {
+          cell.classList.add("absent");
+        }
+        row.appendChild(cell);
+      }
+      board.appendChild(row);
+      document.getElementById("guess").value = "";
+      if (guess === word) {
+        alert("You win in " + attempts + " tries!");
+      }
+    }
+  </script>
+</body>
+</html>
+
+  </Section>
 
   <footer>
-    © Please Thank Drake
+    © Drake is so freaking cool
   </footer>
 </body>
 </html>
